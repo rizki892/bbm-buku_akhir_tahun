@@ -26,12 +26,18 @@
     .flipbook-container {
       margin-top: 40px;
     }
-    footer {
+     footer {
       margin-top: 60px;
-      padding: 20px;
       background-color: #eee;
+      padding: 20px 10px;
       text-align: center;
       font-size: 0.9rem;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 500px;
+      border: none;
     }
   </style>
 </head>
@@ -44,11 +50,11 @@
 
   <main class="container flipbook-container">
     <div class="ratio ratio-16x9">
-      <!-- Ganti link iframe ini dengan link embed dari FlipHTML5 kamu -->
       <iframe 
         src="https://online.fliphtml5.com/kyvcm/qcts/?1746164797441" 
         frameborder="0" 
         allowfullscreen
+         style="width: 100%; height: 100%; min-height: 500px;"
       ></iframe>
     </div>
   </main>
