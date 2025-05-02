@@ -39,6 +39,18 @@
       min-height: 500px;
       border: none;
     }
+    /* Override khusus mobile (<576px) untuk header */
+    @media (max-width: 576px) {
+      .hero {
+        padding: 40px 10px;
+      }
+      .hero h1 {
+        font-size: 1.8rem;   /* Mengurangi ukuran font header di mobile */
+      }
+      .flipbook-container {
+        margin-top: 20px;
+      }
+    }
   </style>
 </head>
 <body>
